@@ -55,3 +55,10 @@ let psicologos: Psicologo={
     Correo: "dr.perez@universidad.com"
 
 }    
+
+console.log(`DATOS DEL ESTUDIANTE: ${
+    JSON.stringify(estudiantes)
+}`)
+console.log(`DATOS DEL PSICOLOGO: ${
+    JSON.stringify(psicologos)
+}`) 
